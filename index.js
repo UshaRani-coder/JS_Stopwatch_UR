@@ -28,7 +28,7 @@ function stopWatch(){
     let m = min < 10 ? "0" + min : min;
     let s = sec < 10 ? "0" + sec : sec;
     let ms = milli_sec <10 ? "0" + milli_sec : milli_sec;
-    displayTime.innerHTML = h + ":" + m + ":" + s + ":" + ms;  
+    displayTime.innerHTML = h + ":" + m + ":" + s + "." + ms;  
 }
 
 
@@ -45,5 +45,5 @@ function stopTimer(){
 
 function resetTimer(){
     clearInterval(timer);
-displayTime.innerHTML = "00" + ":" + "00" + ":" + "00" + ":" + "00" ;
+displayTime.innerHTML = "00" + ":" + "00" + ":" + "00" + "." + "00" ;
 }
