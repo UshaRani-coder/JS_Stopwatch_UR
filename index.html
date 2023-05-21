@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StopWatch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="time">
+            <span class="hrs">00</span>
+            <span class="min">00</span>
+            <span class="sec">00</span>
+            <span class="milli_sec">00</span>
+        </div>
+        <div class="wrapper">
+            <img class="start" onclick="startTimer()"  src="Assets/play.png" width="30px">
+            <img class="stop"  onclick="stopTimer()" src ="Assets/stop-button.png" width="30px"  >
+            <img class="reset" onclick="resetTimer()"  src ="Assets/undo.png" width="30px" >
+        </div>
+    </div>
+  <script src="index.js"></script>  
+</body>
+</html>
